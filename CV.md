@@ -1,4 +1,4 @@
-#Valentina Semenova
+#Valentina Semenova (Tinasssi)
 ____________________________________
 ##**Contacts**
 Location: Moscow, RU
