@@ -1,0 +1,94 @@
+/* Имя шрифта и общие семейства шрифтов */
+:root {
+  --main-color: #f0ae12;
+  --text-color: #363636;
+  --white: #ffffff;
+  --gray: #f3f4f5;
+  --light-gray: #e1e1e1;
+  --orange: #d6932e;
+}
+
+font-family: Arial, Helvetica, sans-serif;
+* {
+  box-sizing: border-box;
+}
+border: 1px solid red;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body{
+  background-color: rgb(223, 209, 208); /* Цвет фона веб-страницы */
+ }
+ .container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+footer{
+  background-color: bisque;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.nav-list {
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.nav-link {
+  transition: .3s;
+}
+
+.section-item a {
+  color: #829985;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #4d2323;
+}
+main h3 {
+  width: 136px;
+  margin: 40px auto 20px;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #030303;
+  background-color: var(--dark-gray-color);
+}
+
+.footer {
+  background-color: var(--light-gray);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer__social {
+  background-image: url(assets/github.svg);
+  background-position: center left;
+  background-position-x: left;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+
+.footer__image {
+  width: 70px;
+  margin: 0 10px;
+}
