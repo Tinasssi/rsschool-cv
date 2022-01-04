@@ -18,15 +18,17 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-body{
+body {
   background-color: rgb(223, 209, 208); /* Цвет фона веб-страницы */
- }
- .container {
+}
+.container {
   max-width: 1440px;
   margin: 0 auto;
 }
-footer{
+footer {
   background-color: bisque;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .nav-list {
   display: flex;
@@ -46,7 +48,7 @@ html {
 }
 
 .nav-link {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .section-item a {
@@ -86,7 +88,6 @@ main h3 {
   height: 20px;
   margin-right: 10px;
 }
-
 
 .footer__image {
   width: 70px;
